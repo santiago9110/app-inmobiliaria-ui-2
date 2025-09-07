@@ -1,23 +1,5 @@
-.footer{
-  background:var(--text);
-  color:#fff;
-  padding:var(--gap);
-}
-.container{
-  max-width:1200px;
-  margin:0 auto;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-}
-.links{
-  display:flex;
-  gap:var(--gap);
-}
-.links a{
-  color:#fff;
-}
-.links a:focus{
-  outline:2px solid #fff;
-  outline-offset:2px;
-}
+.footer { background: var(--surface); color: var(--text-muted); border-top: 1px solid var(--line); padding: var(--gap); }
+.inner { display: flex; align-items: center; justify-content: space-between; }
+.links { display: flex; gap: var(--gap); }
+.links a { color: var(--text-muted); }
+.links a:hover { color: var(--text); }

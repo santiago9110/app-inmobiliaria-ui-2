@@ -18,7 +18,7 @@ const properties: Property[] = [
     type: 'Loft',
     beds: 2,
     baths: 1,
-    image: '/images/property1.jpg'
+    image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const properties: Property[] = [
     type: 'House',
     beds: 4,
     baths: 3,
-    image: '/images/property2.jpg'
+    image: 'https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const properties: Property[] = [
     type: 'Apartment',
     beds: 3,
     baths: 2,
-    image: '/images/property3.jpg'
+    image: 'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const properties: Property[] = [
     type: 'Villa',
     beds: 5,
     baths: 4,
-    image: '/images/property4.jpg'
+    image: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 5,
@@ -58,7 +58,7 @@ const properties: Property[] = [
     type: 'Studio',
     beds: 1,
     baths: 1,
-    image: '/images/property5.jpg'
+    image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const properties: Property[] = [
     type: 'Duplex',
     beds: 3,
     baths: 2,
-    image: '/images/property6.jpg'
+    image: 'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80'
   }
 ]
 

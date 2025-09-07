@@ -1,17 +1,15 @@
 import Navbar from '../../components/Navbar/Navbar'
-import Hero from '../../components/Hero/Hero'
-import PropertyGrid from '../../components/PropertyGrid/PropertyGrid'
 import Footer from '../../components/Footer/Footer'
-import styles from './Home.module.css'
+import styles from './Contact.module.css'
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Navbar />
       <main className={styles.main}>
-        <Hero />
         <div className="container">
-          <PropertyGrid />
+          <h1 className={styles.title}>Contacto</h1>
+          <p className={styles.text}>Escribinos a contacto@urbannest.com</p>
         </div>
       </main>
       <Footer />

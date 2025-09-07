@@ -1,11 +1,31 @@
-:root{
-  --brand:#4913EC;
-  --text:#0E0E10;
-  --muted:#666;
-  --bg:#F7F7F9;
-  --card-bg:#FFFFFF;
-  --radius:16px;
-  --gap:16px;
-  --shadow-sm:0 2px 8px rgba(0,0,0,0.08);
-  --shadow-lg:0 8px 24px rgba(0,0,0,0.12);
+:root {
+  /* Brand */
+  --brand: #4913EC;
+  --brand-600: #5a29f0;
+  --brand-400: #7a56f5;
+
+  /* Base oscura */
+  --bg: #0D0E11;
+  --surface: #15161A;
+  --surface-2: #1C1E24;
+
+  /* Texto */
+  --text: #E6E7EC;
+  --text-muted: #A2A6B3;
+
+  /* Bordes / líneas */
+  --line: #292C34;
+
+  /* Estados */
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --error: #e74c3c;
+
+  /* Dimensiones */
+  --radius: 16px;
+  --gap: 16px;
+
+  /* Sombras pensadas para fondo oscuro */
+  --shadow-sm: 0 2px 10px rgba(0, 0, 0, .45);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, .55);
 }
